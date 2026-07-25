@@ -4,7 +4,6 @@
 ### AIM: 
 To write a program to simulate the process of Pursue and Evade behavior in Unity using NavigationMeshAgent. 
 ### Algorithm:
-```
 1. Create a New Unity Project by Open the  Unity Hub and create a new 3D Project.
 2. Name the project "SteeringBehaviors" and select a location. Click Create.
 3.Open Unity Scene (default is SampleScene).
@@ -105,7 +104,6 @@ public class Pursuer: MonoBehaviour
 12. Run the game 
 13. Stop the program
     
-```
 ### Output:
 <img width="1536" height="777" alt="image" src="https://github.com/user-attachments/assets/a46f72e5-7315-4aaf-bd2f-edcf929bba89" />
 <img width="1515" height="777" alt="image" src="https://github.com/user-attachments/assets/88172435-e725-4bcc-9e28-2bf0ec87b457" />
