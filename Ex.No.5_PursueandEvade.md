@@ -1,5 +1,5 @@
 # Ex.No: 5  Implementation of Steering behaviour-Pursue and Evade in Unity
-### DATE: 25-07-2026                                                                          
+### DATE: 25.07.2026                                                                            
 ### REGISTER NUMBER : 212223240171
 ### AIM: 
 To write a program to simulate the process of Pursue and Evade behavior in Unity using NavigationMeshAgent. 
@@ -28,7 +28,12 @@ To write a program to simulate the process of Pursue and Evade behavior in Unity
     Pursuer: Set Speed = 4.
     Evader: Set Speed = 6.
 5. Write a script for  Player_movement behavior and save it
-
+6. Attach the Script to each player,pursuer and Evader.
+   Drag & Drop the Target from the Hierarchy into the "Target" field in the script component ( For pursuer and Evader).
+7. Run the game 
+8. Stop the program
+### Program:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -50,6 +55,8 @@ public class Player_movement : MonoBehaviour
         
     }
 }
+```
+```
 **Evader script**
 public class Evader : MonoBehaviour
 {
@@ -75,6 +82,8 @@ public class Evader : MonoBehaviour
         evade();          
      }
 }
+```
+```
 **Pursuer script**
 public class Pursuer: MonoBehaviour
 {
@@ -99,14 +108,11 @@ public class Pursuer: MonoBehaviour
         pursue();          
      }
 }
-7. Attach the Script to each player,pursuer and Evader.
-   Drag & Drop the Target from the Hierarchy into the "Target" field in the script component ( For pursuer and Evader).
-12. Run the game 
-13. Stop the program
-    
+```
 ### Output:
-<img width="1536" height="777" alt="image" src="https://github.com/user-attachments/assets/a46f72e5-7315-4aaf-bd2f-edcf929bba89" />
-<img width="1515" height="777" alt="image" src="https://github.com/user-attachments/assets/88172435-e725-4bcc-9e28-2bf0ec87b457" />
+<img width="1917" height="1020" alt="Screenshot 2026-07-25 145226" src="https://github.com/user-attachments/assets/9bceccf7-786b-4cf8-93b4-479cb856aa34" />
+
+<img width="1917" height="1020" alt="Screenshot 2026-07-25 145326" src="https://github.com/user-attachments/assets/8eecda0f-2f5b-4091-a0b9-9435d3afb8b8" />
 
 ### Result:
 Thus the simple pursue and evade behavior was implemented successfully.
